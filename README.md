@@ -2,7 +2,8 @@
 
 TODO: Write a description here
 ![Screenshot 2025-02-24 at 17 04 19](https://github.com/user-attachments/assets/c942f59a-6938-4e78-ae9c-0249101c91c5)
-![Screenshot 2025-02-24 at 17 04 46](https://github.com/user-attachments/assets/cd97a4db-4af9-4c12-9830-ce31de263916)
+![Screenshot 2025-02-24 at 17 11 03](https://github.com/user-attachments/assets/f46fdfb3-67e8-4ff8-a34d-0751be35fdeb)
+
 
 ## Installation
 
