@@ -1,0 +1,22 @@
+<%= render "src/views/header.ecr" %>
+  <%= render "src/views/nav.ecr" %>
+
+  <h1>Login</h1>
+
+
+  <form hx-post="/login" hx-target="#login_result" hx-swap="outerHTML" hx-validate hx-trigger="click">
+    <div>
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="mail" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit" hx-trigger="click">Login</button>
+  </form>
+
+  <div id="login_result"></div>
+
+<%= render "src/views/footer.ecr" %>
+

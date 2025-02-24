@@ -1,0 +1,27 @@
+
+<%= render "src/views/header.ecr" %>
+<%= render "src/views/nav.ecr" %>
+
+<!-- Add a script block to process the markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- article_display.ecr -->
+    <h1><%= @article.title %></h1>
+
+    <div id="article-content">
+        <%= @article.content %>.
+    </div>
+
+
+
+    <!-- To render MD as HTML -->
+
+<script>
+  // Grab the markdown text from the container
+  const mdContent = document.getElementById('article-content').innerText;
+  // Use marked.parse() to convert markdown to HTML
+  document.getElementById('article-content').innerHTML = marked.parse(mdContent);
+</script>
+
+
+<%= render "src/views/footer.ecr" %>

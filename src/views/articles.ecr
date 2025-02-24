@@ -1,0 +1,22 @@
+<%= render "src/views/header.ecr" %>
+  <%= render "src/views/nav.ecr" %>
+  
+  <h1>Articles Listing</h1>
+  <% @grouped_articles.each do |category, articles| %>
+    <h2><%= category %></h2>
+    <ul>
+      <% articles.each do |art| %>
+        <li>
+          <strong>
+            <a href="/article_display/<%= art[0] %>">
+              <%= art[1] %>
+            </a>
+          </strong> <%= art[3] %>
+          <br> 
+          <%= art[2] %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+
+<%= render "src/views/footer.ecr" %>

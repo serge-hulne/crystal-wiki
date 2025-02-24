@@ -1,0 +1,25 @@
+name: server
+version: 0.1.0
+
+authors:
+  - serge <serge.hulne@gmail.com>
+
+targets:
+  server:
+    main: src/server.cr
+
+crystal: '>= 1.14.0'
+
+dependencies:
+  
+  kemal:
+    github: kemalcr/kemal
+
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+  kemal-session:
+    github: kemalcr/kemal-session
+
+
+license: MIT

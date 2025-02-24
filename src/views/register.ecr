@@ -1,0 +1,44 @@
+<%= render "src/views/header.ecr" %>
+
+
+
+  <%= render "src/views/nav.ecr" %>
+
+  <h1>Register New User</h1>
+  <form hx-post="/register_action" hx-target="#result" hx-swap="innerHTML" hx-validate hx-trigger="click">
+    
+    <div>
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" required>
+    </div>
+    
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div>
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="mail" required>
+    </div>
+    
+    <div>
+      <label for="role">Role (to be validated):</label>
+      <select id="role" name="role" required>
+        <option value="Visitor">Visitor</option>
+        <option value="Member">Member</option>
+        <option value="Editor">Editor</option>
+        <option value="Admin">Admin</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="password">Password:</label>
+      <input type="text" id="password" name="password" required>
+    </div>
+
+    <button type="submit">Register</button>
+  </form>
+  <div id="result"></div>
+
+<%= render "src/views/footer.ecr" %>

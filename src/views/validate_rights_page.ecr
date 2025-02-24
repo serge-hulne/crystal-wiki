@@ -1,0 +1,19 @@
+
+<!-- Filename: src/views/validate_rights_page.ecr -->
+<%= render "src/views/header.ecr" %>
+<body>
+  <%= render "src/views/nav.ecr" %>
+  
+  <h1>Pending Rights Validation</h1>  
+
+  <!-- This container will be updated on page load with the list of pending users -->
+  <div id="result" 
+       hx-get="/validate_rights" 
+       hx-trigger="load" 
+       hx-swap="innerHTML">
+    <!-- Optionally, some loading indicator -->
+    Loading pending rights...
+  </div>
+  
+  <%= render "src/views/footer.ecr" %>
+</body>
