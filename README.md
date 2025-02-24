@@ -1,4 +1,14 @@
-# server
+# Crystal-wiki uses:
+- Crystal-lang
+- SQlite3
+- HTMX.
+- Marked.js
+- Toast UI Editor
+- Bahunya.css / Water.css
+
+
+
+
 
 TODO: Write a description here
 ![Screenshot 2025-02-24 at 17 04 19](https://github.com/user-attachments/assets/c942f59a-6938-4e78-ae9c-0249101c91c5)
