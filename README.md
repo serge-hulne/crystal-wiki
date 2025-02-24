@@ -5,6 +5,9 @@ TODO: Write a description here
 ![Screenshot 2025-02-24 at 17 11 03](https://github.com/user-attachments/assets/f46fdfb3-67e8-4ff8-a34d-0751be35fdeb)
 ![Screenshot 2025-02-24 at 17 12 53](https://github.com/user-attachments/assets/560a7355-994d-4598-8329-32cbc38ca292)
 
+You can copy-paste from Google docs:
+![Screenshot 2025-02-24 at 17 14 41](https://github.com/user-attachments/assets/54eb7109-40ee-4bcf-929a-e0c7bb741e1b)
+
 
 ## Installation
 
