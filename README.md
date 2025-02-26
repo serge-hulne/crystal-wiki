@@ -17,10 +17,10 @@ TODO: Write a description here
 You can copy-paste from Google docs:
 ![Screenshot 2025-02-24 at 17 14 41](https://github.com/user-attachments/assets/f149a6e4-481d-46fb-8f14-640812d2020f)
 
-
 Exemple of an article created in the Wiki:
-![Screenshot 2025-02-26 at 10 11 07](https://github.com/user-attachments/assets/14b0d28d-b3bc-411a-8abf-5cdc21627595)
-9a-e0c7bb741e1b)
+![Screenshot 2025-02-26 at 11 23 15](https://github.com/user-attachments/assets/99aa16f7-748b-4938-8a59-c073e2c0a26d)
+
+
 
 
 ## Installation
