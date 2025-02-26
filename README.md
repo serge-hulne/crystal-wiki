@@ -15,7 +15,7 @@ TODO: Write a description here
 ![Screenshot 2025-02-24 at 17 11 03](https://github.com/user-attachments/assets/f46fdfb3-67e8-4ff8-a34d-0751be35fdeb)
 
 You can copy-paste from Google docs:
-![Screenshot 2025-02-24 at 17 14 41](https://github.com/user-attachments/assets/54eb7109-40ee-4bcf-92
+![Screenshot 2025-02-24 at 17 14 41](https://github.com/user-attachments/assets/54eb7109-40ee-4bcf-92)
 
 Exemple of an article created in the Wiki:
 ![Screenshot 2025-02-26 at 10 11 07](https://github.com/user-attachments/assets/14b0d28d-b3bc-411a-8abf-5cdc21627595)
